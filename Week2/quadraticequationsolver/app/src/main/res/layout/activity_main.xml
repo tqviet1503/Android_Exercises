@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="50dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Giải phương trình bậc 2"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#0033FF"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ax² + bx + c = 0 (a != 0)"
+        android:textSize="20sp"
+        android:textColor="#0033FF"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="25dp"/>
+
+    <EditText
+        android:id="@+id/edtA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập a"
+        android:inputType="numberSigned|numberDecimal"
+        android:paddingBottom="20dp"/>
+
+    <EditText
+        android:id="@+id/edtB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập b"
+        android:inputType="numberSigned|numberDecimal"
+        android:paddingBottom="20dp"/>
+
+    <EditText
+        android:id="@+id/edtC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập c"
+        android:inputType="numberSigned|numberDecimal"
+        android:paddingBottom="20dp"/>
+
+    <Button
+        android:id="@+id/btnSolve"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Giải phương trình"
+        android:textColor="@android:color/white"
+        android:backgroundTint="#0033FF"
+        android:layout_marginTop="40dp"/>
+</LinearLayout>
