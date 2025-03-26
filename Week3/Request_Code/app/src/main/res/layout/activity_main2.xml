@@ -1,0 +1,38 @@
+<!-- activity_main2.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@android:color/white">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cô giáo dạy chính tả"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:paddingBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextCorrection"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:hint="Sửa đoạn văn ở đây"
+        android:gravity="top|start"
+        android:background="@drawable/edittext_background"
+        android:padding="16dp"
+        android:textSize="18sp"
+        android:inputType="textMultiLine"
+        android:scrollbars="vertical" />
+
+    <Button
+        android:id="@+id/buttonCorrect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đã sửa bài"
+        android:layout_gravity="center"
+        android:padding="12dp"/>
+</LinearLayout>
