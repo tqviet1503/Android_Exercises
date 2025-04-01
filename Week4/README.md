@@ -23,27 +23,16 @@
 - **Open Camera** to take a photo.
 
 ## 4. Required Permissions
-The app requires the following permissions in `AndroidManifest.xml`:
-
-```xml
-<uses-permission android:name="android.permission.SEND_SMS"/>
-<uses-permission android:name="android.permission.CALL_PHONE"/>
-<uses-permission android:name="android.permission.CAMERA"/>
+The app requires the following permissions in `AndroidManifest.xml`
 
 ## 5. How to Use
 - Fill in the student's information.
-
 - Select the academic year and major.
-
 - Enter the personal development plan.
-
 - Use the function buttons to send an SMS, make a call, or take a photo.
-
 - Press Submit to view the collected information in SecondActivity.
 
 ## 6. Technologies Used
 - Android Studio
-
 - Java
-
 - Android SDK
