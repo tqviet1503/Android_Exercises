@@ -13,10 +13,6 @@ The app requires the following permissions:
 - **CALL**: To make phone calls.
 - **CAMERA**: To take photos.
 
-```xml
-<uses-permission android:name="android.permission.SEND_SMS"/>
-<uses-permission android:name="android.permission.CALL_PHONE"/>
-<uses-permission android:name="android.permission.CAMERA"/>
 UI Components in activity_main.xml
 EditText:
 
